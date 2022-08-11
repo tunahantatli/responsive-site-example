@@ -13,8 +13,16 @@ body{
     line-height: 1.5;
     background-color: #fff;
 }
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 a{
     text-decoration: none;
+}
+ul{
+    list-style: none;
 }
 .container{
     width: 1140px;
@@ -32,12 +40,36 @@ a{
 /*navbar*/
 nav{
     font-family: 'Montserrat', sans-serif;
-    background-color: darkcyan;
+    background-color: #333;
     color: #fff;
     padding: 3rem;
+}
+#logo-box{
+    float: left;
+    padding-top: 5px;
 }
 #logo-box .logo{
     color: #fff;
     font-weight: 700;
     font-size: 3.2rem
+}
+
+#nav-links{
+    float: right;
+}
+#nav-links .nav-item{
+    float: left;
+    margin: 0.8em;
+}
+#nav-links .nav-link{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s;
+}
+#nav-links .nav-link:hover{
+    color: #1abc98;
 }
