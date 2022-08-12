@@ -57,6 +57,7 @@ nav{
     padding-top: 2rem;
     padding-bottom: 2rem;
     position: fixed;
+    z-index: 40;
 }
 #logo-box{
     float: left;
@@ -123,4 +124,34 @@ header h2{
     font-size: 2.4rem;
     font-family: 'Lato';
     font-weight: 300;
+}
+#portfolio{
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #fff;
+}
+#portfolio h2{
+    font-size: 4.8rem;
+    color: #2d3d4f;
+}
+.star-dark{
+    border:none;
+    border-top: 0.4rem solid #2d3d4f;
+    border-radius: 10px;
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
+}
+.star-dark::after{
+    content: "\2605";
+    color:#2d3d4f;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 0 8px;
+    top: -28px;
+    position: relative;
+    background-color: #fff;
 }
