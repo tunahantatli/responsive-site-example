@@ -155,3 +155,15 @@ header h2{
     position: relative;
     background-color: #fff;
 }
+.img-fluid-p{
+    max-width: 100%;
+    height: auto;
+}
+.col{
+    float:left;
+    width: 33%;
+    padding: 20px;
+}
+.portfolio-item{
+  
+}
