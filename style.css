@@ -215,9 +215,12 @@ nav {
     #nav-links .nav-icon{
         display: block;
         position: absolute;
-        top: 1rem;
-        right: 0.5rem;
+        top: 0.5px;
+        right: 5px;
         font-size: 3rem;
+    }
+    #nav-links.responsive li:not(:first-child){
+        display: none;
     }
 }
 /*header*/
