@@ -193,7 +193,34 @@ nav {
 #nav-links .nav-link:hover {
     color: #1abc98;
 }
-
+#nav-links .nav-icon{
+    display: none;
+}
+@media(max-width:992px){
+    #logo-box{
+        float: none;
+        text-align: left;
+    }
+    #nav-links{
+        float: none;
+    }
+    #nav-links .nav-link{
+        font-size: 2rem;
+        padding-left: 0;
+    }
+    #nav-links .nav-item{
+        float: none;
+        text-align: left;
+    }
+    #nav-links .nav-icon{
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 0.5rem;
+        font-size: 3rem;
+    }
+}
+/*header*/
 header {
     background-color: #1abc98;
     height: 600px;
